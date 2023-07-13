@@ -1,20 +1,28 @@
 {
-	"name": "videochat",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js",
-		"dev": "nodemon index.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"cors": "^2.8.5",
-		"express": "^4.17.1",
-		"nodemon": "^2.0.7",
-		"serve": "^11.3.2",
-		"socket.io": "^4.0.0"
-	}
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "![Video Chat](https://i.ibb.co/7WZRLD1/122.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Oleg Gromov",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "serve": "^11.3.2",
+    "socket.io": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegGromOff/video_chat_react_webrtc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OlegGromOff/video_chat_react_webrtc/issues"
+  },
+  "homepage": "https://github.com/OlegGromOff/video_chat_react_webrtc#readme"
 }
