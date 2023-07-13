@@ -1,0 +1,13 @@
+Create project:
+
+npm install cors express nodemon socket.io 
+// cors: cross origin resource sharing  
+// express: for server // nodemon: auto restart server // socket.io: real time communication
+
+Create server file: index.js in core folder
+
+Create client side: npx create-react-app ./client
+
+npm install socket.io-client @material-ui/core @material-ui/icons react-copy-to-clipboard simple-peer 
+// react-copy-to-clipboard : copy to clipboard // simple-peer: for peer to peer connection 
+

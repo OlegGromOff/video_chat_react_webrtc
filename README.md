@@ -1,4 +1,6 @@
-In this tutorial, I'm going to build and deploy a React Video Chat Application using WebRTC.
+React, WebRtc, socket.io
+
+In this tutorial, i`m going to build and deploy a React Video Chat Application using WebRTC.
 
 Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+- Start:  ```npm i && npm run start``` for both client(folder client) and server side(index.js file in core folder) to start the development server

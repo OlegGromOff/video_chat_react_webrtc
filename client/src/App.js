@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography, AppBar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-
 import VideoPlayer from './components/VideoPlayer';
 import Sidebar from './components/Sidebar';
 import Notifications from './components/Notifications';
@@ -16,9 +15,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     width: '600px',
-    border: '2px solid black',
+    border: '2px solid #3f51b5',
 
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('xs')]: { // xs: extra small devices (portrait phones, less than 576px)
       width: '90%',
     },
   },
@@ -34,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const App = () => {
-  const classes = useStyles();
+  const classes = useStyles(); // material-ui - styles-options-hook
 
   return (
     <div className={classes.wrapper}>
