@@ -4,7 +4,7 @@ import Peer from 'simple-peer'; // simple-peer for WebRTC peer-to-peer connectio
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:5000');
+const socket = io('https://gromov-video-chat.onrender.com/');
 // const socket = io('https://warm-wildwood-81069.herokuapp.com');
 
 const ContextProvider = ({ children }) => {

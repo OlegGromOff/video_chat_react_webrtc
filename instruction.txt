@@ -30,6 +30,11 @@ Copy link to your app and open it in browser to check if it works correctly  htt
 
 Enter this link in file Context.js in client folder to connect to server: const socket = io('https://gromov-video-chat-c82867d50009.herokuapp.com/');
 
+Если Heroku не подходит то https://render.com/ - там бесплатно можно развернуть сервер
+Залогинься там через гитхаб и залей туда свой репозиторий с гитхаба.
+Enter this link in file Context.js in client folder to connect to server: const socket = io('https://gromov-video-chat.onrender.com/');
+
+
 Deploy client side:
 https://www.netlify.com/
 
