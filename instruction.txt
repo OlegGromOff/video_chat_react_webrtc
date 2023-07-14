@@ -11,7 +11,10 @@ Create client side: npx create-react-app ./client
 npm install socket.io-client @material-ui/core @material-ui/icons react-copy-to-clipboard simple-peer 
 // react-copy-to-clipboard : copy to clipboard // simple-peer: for peer to peer connection 
 
-Deploy at heroku: Deploy using Heroku Git
+Deploy at heroku: Create new app at Heroku
+Deploy using Heroku Git
+Deploy server side:
+
 1) install heroku cli
 2) create Procfile in root folder
 3) use command heroku login in terminal at vs code when you are in root folder
@@ -22,3 +25,10 @@ heroku git:remote -a gromov-video-chat  (тут имя которое указа
 git add .
 git commit -am "make it better"
 git push heroku master
+
+Copy link to your app and open it in browser to check if it works correctly  https://gromov-video-chat-c82867d50009.herokuapp.com/
+
+Enter this link in file Context.js in client folder to connect to server: const socket = io('https://gromov-video-chat-c82867d50009.herokuapp.com/');
+
+Deploy client side:
+https://www.netlify.com/
