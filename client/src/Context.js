@@ -37,9 +37,8 @@ const ContextProvider = ({ children }) => {
   const answerCall = () => {
     setCallAccepted(true);
 
-    const peer = new Peer({ initiator: false, trickle: false, stream }); // Peer - is a constructor for creating a new peer connection  
-
-    peer.on('signal', (data) => { 
+    const peer = new Peer({ initiator: false, trickle: false, stream });// Peer - is a constructor for creating a new peer connection
+    peer.on('signal', (data) => {
       socket.emit('answerCall', { signal: data, to: call.from });
     });
 
@@ -81,7 +80,7 @@ const ContextProvider = ({ children }) => {
   };
 
   return (
-    <SocketContext.Provider value={{ // SocketContext.Provider - it is a wrapper for all components in the application that need access to the context object 
+    <SocketContext.Provider value={{ // SocketContext.Provider - it is a wrapper for all components in the application that need access to the context object
       call,
       callAccepted,
       myVideo,

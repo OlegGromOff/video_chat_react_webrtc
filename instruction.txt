@@ -11,3 +11,14 @@ Create client side: npx create-react-app ./client
 npm install socket.io-client @material-ui/core @material-ui/icons react-copy-to-clipboard simple-peer 
 // react-copy-to-clipboard : copy to clipboard // simple-peer: for peer to peer connection 
 
+Deploy at heroku: Deploy using Heroku Git
+1) install heroku cli
+2) create Procfile in root folder
+3) use command heroku login in terminal at vs code when you are in root folder
+cd my-project/
+git init
+heroku git:remote -a gromov-video-chat  (тут имя которое указали на heroku когда создавали приложение новое там)
+
+git add .
+git commit -am "make it better"
+git push heroku master
