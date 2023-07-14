@@ -36,3 +36,4 @@ https://www.netlify.com/
 cd client in vs code terminal
 npm run build
 Залей папку build на netlify как новый сайт
+Готово: вот твой сайт https://gromov-video-chat.netlify.app/
