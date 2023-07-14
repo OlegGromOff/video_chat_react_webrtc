@@ -32,3 +32,6 @@ Enter this link in file Context.js in client folder to connect to server: const 
 
 Deploy client side:
 https://www.netlify.com/
+
+cd /client in vs code terminal
+npm run build
